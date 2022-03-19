@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/87ec4b99cf.js" crossorigin="anonymous"></script>
+    <style>
+        #abc{
+            background-color: white;
+	        color:black;
+	        padding:10px;
+	        margin-right:700px;
+	        margin-left:700px;
+            border: 20px solid #0cecb4;
+        }
+        #form{
+	        color:black;
+	        padding:15px;
+	        font-size:25;
+            text-align: center;
+            background-color: azure;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            margin-top: 30px;    
+        }
+        .ab{
+	        color: black;
+            text-align: center;
+            background-color: azure;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            margin-top: 30px;    
+        }
+        p{
+	        text-align:center;
+	        font-size:25;
+        }
+        h1{
+            font-family: 'Lobster', cursive;
+            font-family: 'Luckiest Guy', cursive;
+            font-family: 'Special Elite', cursive;
+            font-size:250%;
+        }
+        input{
+    	    height:36px;
+            width: 300px;
+            background-color:white;
+            font-size: 16px;
+        }
+        body{
+          	background-image:url("https://st4.depositphotos.com/10504788/23079/i/1600/depositphotos_230797842-stock-photo-flowers-background-bouquets-frame-border.jpg") ;
+	        background-repeat: no-repeat;
+            margin-top: 150px;
+            background-size: cover;
+        }
+        * {box-sizing: border-box;}
+        .input-container {
+            display: flex;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+.icon {
+  padding: 10px;
+  background: #0cecb4;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #0cecb4;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+img{
+        height:70px;
+        width:70px;
+        padding: 8px;
+      }
+
+    </style>
+</head>
+<body>
+    <div id="abc">
+    <h1 class="ab">SIGN UP</H1>
+        <div class="bb">
+        <p class="ab" style="text-align:left; margin-left: 50px;">Please fill in this form to create an account!</p>
+        <form id="form"  name="sign" method="post" action="register.php">
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input type="text" id="username" name="username" placeholder="Username" required><br><br>
+            </div>
+            <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input type="text" id="email" name="email" placeholder="Email" required><br><br>
+            </div>
+            <div class="input-container">
+                <i class="fa fa-lock icon"></i>
+                <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+            </div>
+            <div class="input-container">
+                <i class="fa fa-unlock icon"></i>
+                <input type="password" id="cpassword" name="cpassword"  placeholder="Confirm password" required><br><br>
+            </div>
+            <input style="width: 15px; height: 15px;" type="checkbox" name="policy"><label> I accept the Terms of Use & Privacy Policy.</label><br><br>
+            <input type="Submit" value="Submit" class="btn" height="40" width="40"><hr>
+            
+            <p>
+                You Already have an account
+                <a href="login.html">Login here</a>
+            </p>
+            <h4 style="text-align:center;">Or Sign up with</h4>
+            <img src="https://pbs.twimg.com/profile_images/638771889339404289/h64dZ4wh_400x400.png">
+            <img src="https://image.pngaaa.com/124/3883124-middle.png">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bvd9NcF5HXcAIcOdiEfTCkdXiyU1zu7REVeOV29RS17aXZkNv_p_MpRgsaSlxnHrmHo&usqp=CAU">
+        </form>
+        </div>
+        </div>
+</body>
+</html>
